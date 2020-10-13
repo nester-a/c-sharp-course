@@ -9,6 +9,23 @@ namespace CSharpCourse
         {
             
         }
+        public static void Overflow()
+        {
+            //checked
+            //{
+            uint x = uint.MaxValue;
+
+            Console.WriteLine(x);
+
+            x = x + 1;
+
+            Console.WriteLine(x);
+
+            x = x - 1;
+
+            Console.WriteLine(x);
+            //}
+        }
         public static void VariablesScope()
         {
             var a = 1;
