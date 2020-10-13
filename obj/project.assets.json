@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\CSharpCourse.csproj",
+      "projectUniqueName": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\c-sharp-course\\CSharpCourse.csproj",
       "projectName": "CSharpCourse",
-      "projectPath": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\CSharpCourse.csproj",
+      "projectPath": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\c-sharp-course\\CSharpCourse.csproj",
       "packagesPath": "C:\\Users\\neste\\.nuget\\packages\\",
-      "outputPath": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\obj\\",
+      "outputPath": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\c-sharp-course\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\neste\\AppData\\Roaming\\NuGet\\NuGet.Config",
