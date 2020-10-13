@@ -7,6 +7,30 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            
+        }
+        public static void VariablesScope()
+        {
+            var a = 1;
+            {
+                var b = 2;
+                {
+                    var c = 3;
+
+                    Console.WriteLine(a);
+                    Console.WriteLine(b);
+                    Console.WriteLine(c);
+                }
+                Console.WriteLine(a);
+                Console.WriteLine(b);
+                //Console.WriteLine(c);
+            }
+            Console.WriteLine(a);
+            //Console.WriteLine(b);
+            //Console.WriteLine(c);
+        }
+        public static void Literals()
+        {
             int x = 0b11;
             int y = 0b1001;
             int k = 0b10001001;
