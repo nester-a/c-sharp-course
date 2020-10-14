@@ -7,6 +7,41 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            string empty = "";
+            string whiteSpaced = " ";
+            string notEmpty = " b";
+            string nullString = null;
+
+            Console.WriteLine("IsNullOrEmpty");
+            bool isNullOrEmpty = string.IsNullOrEmpty(nullString);
+            Console.WriteLine(isNullOrEmpty);
+
+            isNullOrEmpty = string.IsNullOrEmpty(whiteSpaced);
+            Console.WriteLine(isNullOrEmpty);
+
+            isNullOrEmpty = string.IsNullOrEmpty(notEmpty);
+            Console.WriteLine(isNullOrEmpty);
+
+            isNullOrEmpty = string.IsNullOrEmpty(empty);
+            Console.WriteLine(isNullOrEmpty);
+
+            Console.WriteLine();
+            Console.WriteLine("IsNullOrWhiteSpace");
+
+            bool isNullOrWhiteSpaced = string.IsNullOrWhiteSpace(nullString);
+            Console.WriteLine(isNullOrWhiteSpaced);
+
+            isNullOrWhiteSpaced = string.IsNullOrWhiteSpace(whiteSpaced);
+            Console.WriteLine(isNullOrWhiteSpaced);
+
+            isNullOrWhiteSpaced = string.IsNullOrWhiteSpace(notEmpty);
+            Console.WriteLine(isNullOrWhiteSpaced);
+
+            isNullOrWhiteSpaced = string.IsNullOrWhiteSpace(empty);
+            Console.WriteLine(isNullOrWhiteSpaced);
+        }
+        static void QueryingStrings()
+        {
             string name = "abracadabra";
             bool containsA = name.Contains('a');
             bool containsE = name.Contains('e');
