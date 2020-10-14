@@ -14,6 +14,35 @@ namespace CSharpCourse
             Console.WriteLine(containsA);
             Console.WriteLine(containsE);
 
+            bool endsWithAbra = name.EndsWith("abra");
+            Console.WriteLine(endsWithAbra);
+
+            bool startWithAbra = name.StartsWith("abra");
+            Console.WriteLine(startWithAbra);
+
+            int indexOfA = name.IndexOf('a');
+            Console.WriteLine(indexOfA);
+
+            int lastIndexOfR = name.LastIndexOf('r');
+            Console.WriteLine(lastIndexOfR);
+
+            Console.WriteLine(name.Length);
+
+            string substrFrom5 = name.Substring(5);
+            string substrFromTo = name.Substring(0, 3);
+
+            Console.WriteLine(substrFrom5);
+            Console.WriteLine(substrFromTo);
+        }
+        static void StaticAndInstanceMembers()
+        {
+            string name = "abracadabra";
+            bool containsA = name.Contains('a');
+            bool containsE = name.Contains('e');
+
+            Console.WriteLine(containsA);
+            Console.WriteLine(containsE);
+
             string abc = string.Concat("a", "b", "c");
             Console.WriteLine(abc);
 
