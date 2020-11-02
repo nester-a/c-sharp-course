@@ -8,6 +8,27 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine("Hi, please tell me your name");
+            //string name = Console.ReadLine();
+            //string sentence = $"Your name is {name}";
+            //Console.WriteLine(sentence);
+
+            Console.WriteLine("Hi, please tell me your age");
+            string input = Console.ReadLine();
+            int age = int.Parse(input);
+
+            string sentence = $"Your age is {age}";
+            Console.WriteLine(sentence);
+
+            Console.Clear();
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+
+            Console.Write("New Style ");
+            Console.Write("New Style\n");
+        }
+        static void ComparingStrings()
+        {
             //string str1 = "abcde";
             //string str2 = "abcde";
 
