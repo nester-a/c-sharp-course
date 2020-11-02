@@ -1,11 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace CSharpCourse
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("My ");
+            sb.Append("name ");
+            sb.Append("is ");
+            sb.Append("John");
+            sb.AppendLine("!");
+            sb.AppendLine("Hello!");
+
+            string str = sb.ToString();
+            Console.WriteLine(str);
+        }
+        static void StringModification()
         {
             string nameConcat = string.Concat("My ", "name ", "is ", "John");
             Console.WriteLine(nameConcat);
