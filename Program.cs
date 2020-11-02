@@ -8,6 +8,27 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            //string str1 = "abcde";
+            //string str2 = "abcde";
+
+            //bool areEqual = str1 == str2;
+            //Console.WriteLine(areEqual);
+
+            //areEqual = string.Equals(str1, str2, StringComparison.Ordinal);
+            //Console.WriteLine(areEqual);
+
+            string str1 = "Strasse";
+            string str2 = "Straße";
+
+            bool areEqual = string.Equals(str1, str2, StringComparison.Ordinal);
+            Console.WriteLine(areEqual);
+            areEqual = string.Equals(str1, str2, StringComparison.InvariantCulture);
+            Console.WriteLine(areEqual);
+            areEqual = string.Equals(str1, str2, StringComparison.CurrentCulture);
+            Console.WriteLine(areEqual);
+        }
+        static void StringForamt()
+        {
             string name = "John";
             int age = 30;
             string str1 = string.Format("My name is {0} and I'm {1}", name, age);
