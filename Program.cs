@@ -8,6 +8,38 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            byte b = 3; //  0000 0011
+            int i = b;  //  0000 0000 0000 0000 0000 0000 0000 0011
+            long l = i; //  0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011
+
+            float f = i; // 3.0
+
+            //Console.WriteLine(f);
+
+            b = (byte)i;
+            //Console.WriteLine(b);
+
+            i = (int)f;
+            //Console.WriteLine(i);
+
+            f = 3.1f;
+            i = (int)f;
+            //Console.WriteLine(i);
+
+            string str = "1";
+            //i = (int)str;
+            i = int.Parse(str);
+            //Console.WriteLine($"Parsed i = {i}");
+
+            int x = 5;
+            int result = x / 2;
+            Console.WriteLine(result);
+
+            double result2 = (double)x / 2;
+            Console.WriteLine(result2);
+        }
+        static void ConsoleBasics()
+        {
             //Console.WriteLine("Hi, please tell me your name");
             //string name = Console.ReadLine();
             //string sentence = $"Your name is {name}";
