@@ -8,6 +8,24 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            //a signle-line comment
+
+            /*
+             * Multi-line comment
+             * We can write here many words
+             */
+
+            //describe hows and whys! not whats!
+
+            int a = 1;
+
+            //increment a by 1 - bad comment, this code is self-evident
+
+            //we need to tweak the index to match the expected outcome
+            a++;
+        }
+        static void CastingAndParsing()
+        {
             byte b = 3; //  0000 0011
             int i = b;  //  0000 0000 0000 0000 0000 0000 0000 0011
             long l = i; //  0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011
