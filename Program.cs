@@ -10,6 +10,77 @@ namespace CSharpCourse
         {
             
         }
+        static void Homework03()
+        {
+            string name, surname;
+            int age, height;
+            double bmi, weight, heightD;
+
+            Console.Write("Введите Ваше имя: ");
+            name = Console.ReadLine();
+            Console.Write("Введите Вашу фамилию: ");
+            surname = Console.ReadLine();
+            Console.Write("Введите Ваш возраст: ");
+            age = int.Parse(Console.ReadLine());
+            Console.Write("Введите Ваш рост: ");
+            height = int.Parse(Console.ReadLine());
+            Console.Write("Введите Ваш вес: ");
+            weight = double.Parse(Console.ReadLine());
+            heightD = (double)height / 100;
+
+            bmi = weight / (heightD * heightD);
+
+            string profile =
+                                "Your profile:\n"
+                                + $"Full Name: {name} {surname}\n"
+                                + $"Age: {height}\n"
+                                + $"Weight: {weight}\n"
+                                + $"Height: {height}\n"
+                                + $"Body Mass Index: {bmi}";
+            Console.WriteLine();
+            Console.WriteLine(profile);
+        }
+        static void Homework02()
+        {
+            double AB, BC, AC, p, S;
+            Console.Write("Введите длину стороны AB треугольника: ");
+            AB = double.Parse(Console.ReadLine());
+            Console.Write("Введите длину стороны BC треугольника: ");
+            BC = double.Parse(Console.ReadLine());
+            Console.Write("Введите длину стороны AC треугольника: ");
+            AC = double.Parse(Console.ReadLine());
+
+            p = (AB + BC + AC) / 2;
+            S = Math.Sqrt(p * (p - AB) * (p - BC) * (p - AC));
+            Console.Write($"Площадь треугольника по формуле Герона = {S}");
+        }
+        static void Homework01()
+        {
+            //1
+            Console.Write("Пожалуйста введите своё имя: ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}");
+
+            //2
+            Console.WriteLine("Введите первое целое число: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите второе целое число: ");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine($"До омнена значениями: a = {a}; b = {b}");
+            a ^= b;
+            b ^= a;
+            a ^= b;
+            Console.WriteLine($"После обмена значениями: a = {a}; b = {b}");
+
+            //3
+            Console.WriteLine("Введите целое число, а мы узнаем его длину: ");
+            string number = Console.ReadLine();
+            bool isANumber = int.TryParse(number, out a);
+            if (isANumber == true)
+                Console.WriteLine($"Длина вашего числа - {number.Length} цифр");
+            else
+                Console.WriteLine("Вы не ввели число");
+        }
         static void DateTimeIntro()
         {
             DateTime now = DateTime.Now;
