@@ -8,6 +8,26 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            
+        }
+        static void DateTimeIntro()
+        {
+            DateTime now = DateTime.Now;
+            Console.WriteLine(now.ToString());
+
+            Console.WriteLine($"It's {now.Date}, {now.Hour}:{now.Minute}");
+
+            DateTime dt = new DateTime(2016, 2, 28);
+            DateTime newDt = dt.AddDays(1);
+
+            Console.WriteLine(newDt);
+
+            TimeSpan ts = now - dt;
+            //ts = now.Subtract(dt);
+            Console.WriteLine(ts.Days);
+        }
+        static void IntroToArrays()
+        {
             int[] a1;
             a1 = new int[10];
 
@@ -26,7 +46,7 @@ namespace CSharpCourse
             Console.WriteLine(a4[4]);
 
             Console.WriteLine(a4.Length);
-            Console.WriteLine(a4[a4.Length-1]);
+            Console.WriteLine(a4[a4.Length - 1]);
 
             string s1 = "abcdefgh";
             char first = s1[0];
@@ -36,7 +56,6 @@ namespace CSharpCourse
 
             //imposible
             //s1[0] = 'z';
-
         }
         static void MathDemo()
         {
