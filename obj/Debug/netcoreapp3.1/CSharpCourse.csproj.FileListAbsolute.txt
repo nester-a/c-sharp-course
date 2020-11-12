@@ -1,0 +1,13 @@
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\bin\Debug\netcoreapp3.1\CSharpCourse.exe
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\bin\Debug\netcoreapp3.1\CSharpCourse.deps.json
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\bin\Debug\netcoreapp3.1\CSharpCourse.runtimeconfig.json
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\bin\Debug\netcoreapp3.1\CSharpCourse.runtimeconfig.dev.json
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\bin\Debug\netcoreapp3.1\CSharpCourse.dll
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\bin\Debug\netcoreapp3.1\CSharpCourse.pdb
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\obj\Debug\netcoreapp3.1\CSharpCourse.csprojAssemblyReference.cache
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\obj\Debug\netcoreapp3.1\CSharpCourse.AssemblyInfoInputs.cache
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\obj\Debug\netcoreapp3.1\CSharpCourse.AssemblyInfo.cs
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\obj\Debug\netcoreapp3.1\CSharpCourse.csproj.CoreCompileInputs.cache
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\obj\Debug\netcoreapp3.1\CSharpCourse.dll
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\obj\Debug\netcoreapp3.1\CSharpCourse.pdb
+C:\Aleksey\Development\VS\CSharpCourse\c-sharp-course\obj\Debug\netcoreapp3.1\CSharpCourse.genruntimeconfig.cache
