@@ -8,6 +8,24 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            double AB, BC, AC, p, S;
+            Console.Write("Введите длину стороны AB треугольника: ");
+            AB = double.Parse(Console.ReadLine());
+            Console.Write("Введите длину стороны BC треугольника: ");
+            BC = double.Parse(Console.ReadLine());
+            Console.Write("Введите длину стороны AC треугольника: ");
+            AC = double.Parse(Console.ReadLine());
+
+            p = (AB + BC + AC) / 2;
+            S = Math.Sqrt(p * (p - AB) * (p - BC) * (p - AC));
+            Console.Write($"Площадь реугольника по формуле Герона = {S}");
+        }
+        static void Homework02()
+        {
+
+        }
+        static void Homework01()
+        {
             //1
             Console.Write("Пожалуйста введите своё имя: ");
             string name = Console.ReadLine();
