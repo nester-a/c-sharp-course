@@ -8,6 +8,40 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
+            
+        }
+        static void Homework03()
+        {
+            string name, surname;
+            int age, height;
+            double bmi, weight, heightD;
+
+            Console.Write("Введите Ваше имя: ");
+            name = Console.ReadLine();
+            Console.Write("Введите Вашу фамилию: ");
+            surname = Console.ReadLine();
+            Console.Write("Введите Ваш возраст: ");
+            age = int.Parse(Console.ReadLine());
+            Console.Write("Введите Ваш рост: ");
+            height = int.Parse(Console.ReadLine());
+            Console.Write("Введите Ваш вес: ");
+            weight = double.Parse(Console.ReadLine());
+            heightD = (double)height / 100;
+
+            bmi = weight / (heightD * heightD);
+
+            string profile =
+                                "Your profile:\n"
+                                + $"Full Name: {name} {surname}\n"
+                                + $"Age: {height}\n"
+                                + $"Weight: {weight}\n"
+                                + $"Height: {height}\n"
+                                + $"Body Mass Index: {bmi}";
+            Console.WriteLine();
+            Console.WriteLine(profile);
+        }
+        static void Homework02()
+        {
             double AB, BC, AC, p, S;
             Console.Write("Введите длину стороны AB треугольника: ");
             AB = double.Parse(Console.ReadLine());
@@ -18,11 +52,7 @@ namespace CSharpCourse
 
             p = (AB + BC + AC) / 2;
             S = Math.Sqrt(p * (p - AB) * (p - BC) * (p - AC));
-            Console.Write($"Площадь реугольника по формуле Герона = {S}");
-        }
-        static void Homework02()
-        {
-
+            Console.Write($"Площадь треугольника по формуле Герона = {S}");
         }
         static void Homework01()
         {
