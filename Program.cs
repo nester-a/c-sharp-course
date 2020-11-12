@@ -8,7 +8,30 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
-            
+            //1
+            Console.Write("Пожалуйста введите своё имя: ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}");
+
+            //2
+            Console.WriteLine("Введите первое целое число: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите второе целое число: ");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine($"До омнена значениями: a = {a}; b = {b}");
+            a ^= b;
+            b ^= a;
+            a ^= b;
+            Console.WriteLine($"После обмена значениями: a = {a}; b = {b}");
+
+            //3
+            Console.WriteLine("Введите целое число, а мы узнаем его длину: ");
+            string number = Console.ReadLine();
+            bool isANumber = int.TryParse(number, out a);
+            if (isANumber == true)
+                Console.WriteLine($"Длина вашего числа - {number.Length} цифр");
+            else
+                Console.WriteLine("Вы не ввели число");
         }
         static void DateTimeIntro()
         {
