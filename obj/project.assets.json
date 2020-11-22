@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\c-sharp-course\\CSharpCourse.csproj",
-      "projectName": "CSharpCourse",
-      "projectPath": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\c-sharp-course\\CSharpCourse.csproj",
+      "projectUniqueName": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\c-sharp-course\\A_CSharpCourse.csproj",
+      "projectName": "A_CSharpCourse",
+      "projectPath": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\c-sharp-course\\A_CSharpCourse.csproj",
       "packagesPath": "C:\\Users\\neste\\.nuget\\packages\\",
       "outputPath": "C:\\Aleksey\\Development\\VS\\CSharpCourse\\c-sharp-course\\obj\\",
       "projectStyle": "PackageReference",
