@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_CSharpCourse", "A_CSharpCourse.csproj", "{334579BA-2092-47A6-BCB3-D1D1C8C58F3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_ControlFlow", "..\B_ControlFlow\B_ControlFlow.csproj", "{FD7F7897-33FB-43BE-995F-FD23CBC7F306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B_ControlFlow", "..\B_ControlFlow\B_ControlFlow.csproj", "{FD7F7897-33FB-43BE-995F-FD23CBC7F306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_ArraysCollections", "..\C_ArraysCollections\C_ArraysCollections.csproj", "{0E2136BE-1FA1-455E-8074-1237225BC165}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FD7F7897-33FB-43BE-995F-FD23CBC7F306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD7F7897-33FB-43BE-995F-FD23CBC7F306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD7F7897-33FB-43BE-995F-FD23CBC7F306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2136BE-1FA1-455E-8074-1237225BC165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2136BE-1FA1-455E-8074-1237225BC165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2136BE-1FA1-455E-8074-1237225BC165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2136BE-1FA1-455E-8074-1237225BC165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
