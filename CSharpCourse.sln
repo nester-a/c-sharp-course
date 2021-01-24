@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_CSharpCourse", "A_CSharpC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B_ControlFlow", "..\B_ControlFlow\B_ControlFlow.csproj", "{FD7F7897-33FB-43BE-995F-FD23CBC7F306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_ArraysCollections", "..\C_ArraysCollections\C_ArraysCollections.csproj", "{0E2136BE-1FA1-455E-8074-1237225BC165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_ArraysCollections", "..\C_ArraysCollections\C_ArraysCollections.csproj", "{0E2136BE-1FA1-455E-8074-1237225BC165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_OOP", "..\D_OOP\D_OOP.csproj", "{5E54906D-E4E7-45D7-839C-A076FD68FDA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0E2136BE-1FA1-455E-8074-1237225BC165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E2136BE-1FA1-455E-8074-1237225BC165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E2136BE-1FA1-455E-8074-1237225BC165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E54906D-E4E7-45D7-839C-A076FD68FDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E54906D-E4E7-45D7-839C-A076FD68FDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E54906D-E4E7-45D7-839C-A076FD68FDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E54906D-E4E7-45D7-839C-A076FD68FDA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
